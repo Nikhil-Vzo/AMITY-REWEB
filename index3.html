@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIKHIL REDESIGNS</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+<nav>
+    <a  href="index.html"><img src="./Amity University.png" alt="logo"></a>
+    <div class="nav-links" id="navLinks">
+        <!-- <i class="fa fa-xmark" aria-hidden="true"></i> -->
+        <!-- <i class="fa-solid fa-times" onclick="hideMenu()"></i> -->
+        <i class="fa-solid fa-x" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="index1.html">ABOUT</a></li>
+            <li><a href="index2.html">COURSES</a></li> 
+            <li><a href="index3.html">CONTACT US</a></li>
+            <li class="gp"><a href="index4.html">VIDEO GALLERY</a></li>
+            <li class="mp" id="bkl"><a href="https://portfolio-nikhil-reimagine.netlify.app/">DEV'S PORTFILIO </a></li>
+            
+        </ul>                                                        
+</div>
+<i class="fa-solid fa-bars" onclick="showMenu()"></i>
+</nav>
+<h1 >CONTACT US</h1>
+</section>
+
+
+<!-- contact us content ki starting -->
+
+
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3714.8394705662404!2d81.89011937504219!3d21.39622458034666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a289395e43e9897%3A0x2066843c02474507!2sAmity%20University%2C%20Raipur!5e0!3m2!1sen!2sin!4v1736590851869!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+
+
+
+<section class="contact-us">
+
+<div class="row">
+<div class="contact-col">
+    <div>
+        <i class="fa-solid fa-home"></i>
+        <span>
+            <h5>MANTH (KHARORA), State Highway 9, Raipur - Baloda Bazar Marg</h5>
+            <P>Raipur, Chhattisgarh 493225</P>
+        </span>
+    </div>
+</div>
+
+
+
+
+<div class="contact-col">
+
+
+<form action="script.php" method="post">
+    <input type="text" name="name" placeholder="Enter ur Name" required>
+    <input type="email" name="email" placeholder="Enter ur Email" required>
+    <input type="text" name="subject" placeholder="Enter ur Subject" required>
+    <textarea rows="10" class="ko" name="message" placeholder="Enter ur Msg" required></textarea>
+    <button type="submit" class="hero-btn red-btn">SEND MESSAGE</button>
+
+
+</div>
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ending -->
+
+
+<section class="footer">
+    <h4 class="zp"><a class="last" href="https://portfolio-nikhil-reimagine.netlify.app/"> CREATOR</a></h4>
+    <p>Hi I'm Nikhil Yadav <i class="fa-regular fa-face-smile"></i> currently studying B. Tech CSE <i class="fa-solid fa-graduation-cap"></i> , a web tech enthusiast who loves experimenting with code, refreshing designs, and occasionally wondering why the site doesn’t look as good in my mind.<br><BR>BTW DONT FOREGET TO CONNECT WITH ME CLICK BELOW</p>
+    
+    <div class="icons">
+        
+       <a href="https://x.com/Depth_walker?t=EO1YLnfXsb2UW-wgxEYzwg&s=09" <i class="fa-brands fa-twitter"></i></a>
+       <a href="https://www.linkedin.com/in/nikhil-yadav-ba253b326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" <i class="fa-brands fa-linkedin"></i></a>
+    </div>
+    
+    <p>Made With Love and Curiosity by <i class="fa-regular fa-heart"></i>    NIKHIL YADAV</p>
+    </section>
+    
+    
+    
+
+
+<!-- java script taki imported icons funcn kr sake -->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
