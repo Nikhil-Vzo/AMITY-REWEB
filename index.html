@@ -1,204 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ZUDIO - NiKhIl MakeS</title>
-  <link rel="icon" href="./zudio logo.jpeg" />
-  <link rel="stylesheet" href="./index.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
-  </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIKHIL REDESIGNS</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        header
+        {
+            background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./oh\ my\ god.jpg);
+        }
+    </style>
+</head>
 <body>
-
-  <section class="header">
-
-    <!-- 🎬 Background Video -->
+    <section class="header">
+<nav>
+    <a  href="index.html"><img class="chodu" src="./Amity University.png" alt="logo"></a>
+    <div class="nav-links" id="navLinks">
+        <!-- <i class="fa fa-xmark" aria-hidden="true"></i> -->
+        <!-- <i class="fa-solid fa-times" onclick="hideMenu()"></i> -->
+        <i class="fa-solid fa-x" onclick="hideMenu()"></i>
+<ul>
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="index1.html">ABOUT US</a></li>
+    <li><a href="index2.html">COURSES</a></li> 
+    <li><a href="index3.html">CONTACT US</a></li>
+    <li class="gp"><a href="index4.html">VIDEO GALLERY</a></li>
+    <li class="mp" id="bkl"><a href="https://portfolio-nikhil-reimagine.netlify.app/">DEV'S PORTFILIO </a></li>
     
-
-    <video autoplay muted loop playsinline class="bg-video" poster="./fallback img.png">
-      <source src="./compressed.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video> 
-
-    <!-- 🧭 Navigation Bar -->
-    <nav>
-      <!-- Logo -->
-      <a href="index.html">
-        <img src="./zudio logo.jpeg" alt="Zudio Logo" height="60px" />
-      </a>
-
-      <!-- Navigation Links -->
-      <div class="nav-links" id="navLinks">
-        <i class="fa-solid fa-x" id="closeMenu" onclick="hideMenu()"></i>
-        <ul>
-          <li><a href="#">New Arrivals</a></li>
-          <li><a href="#">Best Sellers</a></li>
-          <li><a href="#">Season Trends</a></li>
-          <li><a href="#">Zudio Apparels</a></li>
-        </ul>
-      </div>
-
-      <!-- Buttons -->
-      <div class="btn">
-        <button class="btn-nav">Sign Up</button>
-        <button class="btn-nav">Sign In</button>
-      </div>
-
-      <!-- Hamburger Icon -->
-      <i class="fa-solid fa-bars" id="openMenu" onclick="showMenu()"></i>
-    </nav>
-
-
-    <!--  =====================overlay===================== -->
-
-
-    <div class="overlay"></div>
-    <div class="content">
-      <h1 id="rainbow-text">Fresh Bold You</h1>
-      <p class="tagline">New Arrivals That Turn Heads</p>
-      <p class="subtext">Unwrap the latest trends curated just for you at Zudio.</p>
-      <button class="cta-btn">Explore Collection</button>
-    </div>
-
-  </section>
-
-
-
-<!-- =======================horzontal slider======================== -->
-
-
-
-<div class="horizontal-section">
-
-<div class="card1">
- <div class="card-content">
-    <h2>Exclusive</h2>
-    <h1> Discover Our Exclusive <br> Seasonal Collections<br> Today</h1>
-    <p> Step into style with our exclusive seasonal collections, designed to elevate <br>your wardrobe. Experience the latest trends that blend comfort and <br>elegance, perfect for any occasion.</p>
-<div class="btn-container">
-  <button class="card-btn"><span>Shop Now</span></button>
-  <button class="card-btn"><span>Explore More</span></button>
+</ul>                                                       
 </div>
-    </div>
-     <img src="./black dress.jpg" alt="Card Image 1" />
-  </div>
+<i class="fa-solid fa-bars" onclick="showMenu()"></i>
+<!-- <i class="fa fa-bars" aria-hidden="true"></i> -->
+</nav>
 
-
-<div class="card2">
-  <div class="card-content">
-      <h2>Quality</h2>
-      <h1> Experience Unmatched <br> Quality in Every Stitch </h1>
-      <p> At ZUDIO, we prioritize high-quality fabrics and innovative designs that <br>elevate your wardrobe. Discover the perfect blend of comfort and style with <br> our latest collections.</p>
- <div class="btn-container">
-  <button class="card-btn"><span>Shop Now</span></button>
-  <button class="card-btn"><span>Explore More</span></button>
+<div class="text-box">
+    <h1>WELCOME TO AMITY UNIVERSITY RAIPUR</h1>
+    <p >THE BEST UNIVERSITY IN CHHATTISGARH</p>
+    <a href="index3.html" id="mp" class="hero-btn">VISIT US TO KNOW MORE</a>
 </div>
-    </div>
-     <img src="./model-man-posing-with-coat.jpg" alt="Card Image 2" />
+    </section>
+
+
+
+
+
+
+
+<!-- course section ki startring -->
+
+<section class="course">
+    <h1>AMAZING  COURSES THAT WE OFFER</h1>
+    <p>Practical and job oriented courses  tailored by geniuses</p>
+
+<div class="row">
+    <div class="course-col">
+    <h3>INTEREMEDIATE</h3>
+    <P>Our Intermediate course is designed to give you the basics of the subject and make you ready for the advanced courses</P>
 </div>
 
-<div class="card3">
-  <div class="card-content">
-      <h2>Style</h2>
-      <h1> Elevate Your Style with <br> Our Latest Trends </h1>
-      <p> Discover the latest trends that redefine fashion. From chic casuals to <br>elegant formals, our new arrivals are designed to make you stand out.</p>
-      <p class="addd-on" ><i class="fa-solid fa-snowflake"></i> Fashion that fits your budget and style.</p>
-      <p class="addd-on"><i class="fa-solid fa-person-walking-luggage"></i> Shop the latest trends at unbeatable prices.</p>
-      <p class="addd-on"><i class="fa-solid fa-shirt"></i> Elevate your wardrobe without overspending.</p>
-<div class="btn-container">
-  <button class="card-btn"><span>Shop Now</span></button>
-  <button class="card-btn"><span>Explore More</span></button>
-</div>
 
-    </div>
-     <img src="./happy-attractive-woman-standing-gray-looking-camera.jpg" alt="Card Image 3" />
-  </div>
-
-
+<div class="course-col">
+    <h3>DEGREE</h3>
+    <P>Our Degree course deepens foundational knowledge, preparing you for professional success with practical and theoretical expertise</P>
 </div>
 
 
 
-<!-- =================================FAQ====================================== -->
-
-
-
-<section class="faq-section">
-  <h2 class="faq-title">FAQs</h2>
-  <p class="faq-subtitle">Explore our frequently asked questions about the latest arrivals and shopping experience.</p>
-
-  <div class="faq-item">
-    <button class="faq-question">What are the trends?</button>
-    <div class="faq-answer">
-      <p>Our latest trends feature vibrant colors and stylish designs that reflect the season's essence. Each collection is curated to enhance your wardrobe with fresh styles. Stay ahead in fashion with our exclusive arrivals.</p>
-    </div>
-  </div>
-
-  <div class="faq-item">
-    <button class="faq-question">How to shop online?</button>
-    <div class="faq-answer">
-      <p>Shopping online is easy! Simply browse our collections, select your favorite items, and add them to your cart. Proceed to checkout for a seamless shopping experience.</p>
-    </div>
-  </div>
-
-  <div class="faq-item">
-    <button class="faq-question">What is the return policy?</button>
-    <div class="faq-answer">
-      <p>We offer a hassle-free return policy within 30 days of purchase. Items must be unworn and in original packaging. Your satisfaction is our priority!</p>
-    </div>
-  </div>
-
-  <div class="faq-item">
-    <button class="faq-question">How to track orders?</button>
-    <div class="faq-answer">
-      <p>Once your order is shipped, you will receive a tracking number via email. Use this number to monitor your shipment's progress. Enjoy the anticipation of your new styles!</p>
-    </div>
-  </div>
-
-  <div class="faq-item">
-    <button class="faq-question">Are there size guides?</button>
-    <div class="faq-answer">
-      <p>Yes, we provide detailed size guides for each product. This ensures you find the perfect fit. Consult our size chart before making your purchase.</p>
-    </div>
-  </div>
-
-  <div class="faq-cta">
-  <p class="faq-cta-text">Still have questions? We’re here to help you!</p>
-  <a href="contact.html" class="faq-contact-btn">Contact Us</a>
+<div class="course-col">
+    <h3>POST GRADUATE</h3>
+    <P>Our Postgraduate course focuses on advanced knowledge and research, shaping you for leadership and specialized roles</P>
 </div>
-
-</section>
-
-
-
-
-<!-- 
-================================================testimonial================================================= -->
-
-
-
-<section class="testimonial-section">
-  <h2 class="testimonial-title">What Our Customers Say</h2>
-  <div class="testimonial-slider">
-    <div class="testimonial-track">
-      <div class="testimonial-card">
-        <p>“Absolutely love the collection! The quality and fit are unmatched.”</p>
-        <h4>- Aarav S.</h4>
-      </div>
-      <div class="testimonial-card">
-        <p>“Shopping here is a joy. It’s my go-to place for style.”</p>
-        <h4>- Meera K.</h4>
-      </div>
-      <div class="testimonial-card">
-        <p>“Affordable, trendy, and comfortable. What else could you want?”</p>
-        <h4>- Rohan D.</h4>
-      </div>
-      <div class="testimonial-card">
-        <p>“My wardrobe has never looked better. Zudio gets me.”</p>
-        <h4>- Simran V.</h4>
-      </div>
-    </div>
-  </div>
+</div>
 </section>
 
 
@@ -210,81 +84,138 @@
 
 
 
+<!-- campus section ki starting -->
 
+<section class="campus">
+    <h1>OUR RAIPUR CAMPUS</h1>
+    <p>Amity University Raipur features modern infrastructure, vibrant campus life, and a focus on industry-oriented education.<BR> The campus provides a conducive environment for both academic growth and extracurricular engagement, fostering innovation and research</p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- =======================footer======================== -->
-
-
-<footer class="site-footer">
-  <div class="footer-container">
-    
-    <!-- Column 1: Logo + Tagline -->
-    <div class="footer-column">
-      <h3 class="footer-logo">ZUDIO</h3>
-      <p class="footer-tagline">Style. Quality. Affordability.</p>
+<div class="row">
+<div class="campus-col">
+    <img src="./aset.jpg">
+    <div class="layer">
+        <h3 class="INFO-LOC">ASET/<BR>LAW/<BR>AIIT</h3>
     </div>
-
-    <!-- Column 2: Quick Links -->
-    <div class="footer-column">
-      <h4>Quick Links</h4>
-      <ul>
-        <li><a href="#">New Arrivals</a></li>
-        <li><a href="#">Collections</a></li>
-        <li><a href="#">FAQ</a></li>
-        <li><a href="#">Returns</a></li>
-      </ul>
-    </div>
-
-    <!-- Column 3: Support -->
-    <div class="footer-column">
-      <h4>Support</h4>
-      <ul>
-        <li><a href="#">Contact Us</a></li>
-        <li><a href="#">Size Guide</a></li>
-        <li><a href="#">Order Tracking</a></li>
-        <li><a href="#">Terms & Conditions</a></li>
-      </ul>
-    </div>
-
-    <!-- Column 4: Newsletter -->
-    <div class="footer-column">
-      <h4>Newsletter</h4>
-      <form class="newsletter-form">
-        <input type="email" placeholder="Enter your email" required />
-        <button type="submit">Subscribe</button>
-      </form>
-      <div class="footer-socials">
-        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="#"><i class="fa-brands fa-youtube"></i></a>
-      </div>
-    </div>
-
-  </div>
-
-  <div class="footer-bottom">
-  <p>DESIGNED WITH <i class="fa-solid fa-heart"></i> LOVE BY NiKhIl.</p>
-  <a href="https://portfolio-nikhil-reimagine.netlify.app/" class="portfolio-btn" target="_blank" rel="noopener">
-    DEV'S PORTFOLIO<i class="fa-solid fa-eye"></i><i class="fa-solid fa-hand-point-left"></i>
-  </a>
 </div>
 
-</footer>
+<div class="campus-col">
+    <img src="./aib rec.jpg">
+    <div class="layer">
+        <h3 class="INFO-LOC">BUSINESS/<BR>LITRATURE/<br>PHYSCOLOGY </h3>
+    </div>
+</div>
+
+<div class="campus-col">
+    <img src="./b pharma.jpg">
+    <div class="layer">
+        <h3 class="INFO-LOC">FASHION/ <BR>B. PHARMA/ <bR>INTERIOR </h3>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<!-- FACILITIES KI starting -->
+
+<section class="facilities">
+    <h1>OUR FACILITIES</h1>
+    <p>Amity University Raipur provides top-notch facilities, including a well-equipped library, modern labs, sports grounds,<br> a cafeteria, and food trucks offering diverse food options</p>
+
+
+<div class="row">
+    <div class="facilities-col">
+        <img src="./lib rec.jpg">
+        <h3>LIBRARY</h3>
+        <P>Our library is WI-FI enabled with a vast collection of books, journals, and online resources</P>
+    </div>
+
+
+    <div class="facilities-col">
+        <img src="./lab.jpg">
+        <h3>LAB</h3>
+        <P>Our robotics lab is equipped with the latest technology and tools to help students learn and innovate</P>
+    </div>
+
+    <div class="facilities-col">
+        <img src="./frush.jpg">
+        <h3>FOOD TRUCKS</h3>
+      <P>Our cafeteria and food trucks offer a variety of food options to cater to diverse tastes and preferences</P>
+    </div>
+
+</div>
+</section>
+
+
+<!-- testimonials ki starting -->
+
+
+<section class="testimonials">
+<h1>WHAT OUR ESTEEMED STUDENTS HAVE TO SAY</h1>
+<P>With its commitment to nurturing future leaders and professionals, Amity University Raipur stands out as a destination for students<BR> seeking quality education and opportunities for growth in a vibrant and supportive environment</P>
+
+<div class="row" id="nam">
+    <div class="testimonials-col">
+        <img src="./naman.jpg">
+        <div>
+            <p>Amity University Raipur has been a transformative experience for me.<BR> The faculty is supportive and the campus is vibrant, offering a range of opportunities for growth and development.</p>
+            <h3>NAMAN KU.</h3>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half"></i>
+            
+        </div>
+    </div>
+    
+    <div class="testimonials-col" id="nam">
+        <img src="./jay.jpg">
+        <div>
+            <P><strong>मेरा अनुभव एमिटी रायपुर में इतना अच्छा नहीं रहा। फैकल्टी योग्य नहीं लगती है, कैंपस जंगल में स्थित है, और प्लेसमेंट्स के बारे में क्या ही कहा जाए।</strong></P>
+            <h3>JAY U.</h3>
+           
+            <i class="fa-solid fa-star-half"></i>
+        </div>
+    </div>
+
+
+
+    <div class="testimonials-col" id="nam">
+        <img src="./KP.jpg">
+        <div>
+            <p>Amity University Raipur is a great place for students to learn, grow, and get ready for their future careers.</p>
+
+            <h3>KARTIK P.</h3>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            
+        </div>
+    </div>
+
+</div>
+        
+
+</section>
+
+
+
+
+
+
+<!-- call to action -->
+
+
+<section class="cta">
+<h1>Enroll into our online courses</h1>
+<a href="./contact.html" id="mp" class="hero-btn ">CONTACT US</a>
+</section>
 
 
 
@@ -296,6 +227,21 @@
 
 
 
+<!-- ending -->
+
+
+<section class="footer">
+<h4 class="zp"><a class="last" href="https://portfolio-nikhil-reimagine.netlify.app/"> CREATOR</a></h4>
+<p>Hi I'm Nikhil Yadav <i class="fa-regular fa-face-smile"></i> currently studying B. Tech CSE <i class="fa-solid fa-graduation-cap"></i> , a web tech enthusiast who loves experimenting with code, refreshing designs, and occasionally wondering why the site doesn’t look as good in my mind.<br><BR>BTW DONT FOREGET TO CONNECT WITH ME CLICK BELOW</p>
+
+<div class="icons">
+    
+   <a href="https://x.com/Depth_walker?t=EO1YLnfXsb2UW-wgxEYzwg&s=09" <i class="fa-brands fa-twitter"></i></a>
+   <a href="https://www.linkedin.com/in/nikhil-yadav-ba253b326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" <i class="fa-brands fa-linkedin"></i></a>
+</div>
+
+<p>Made With Love and Curiosity by <i class="fa-regular fa-heart"></i>    NIKHIL YADAV</p>
+</section>
 
 
 
@@ -307,9 +253,16 @@
 
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
-<script src="./index.js" defer></script>
-  
+<!-- java script taki imported icons funcn kr sake -->
 
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
 </body>
 </html>
